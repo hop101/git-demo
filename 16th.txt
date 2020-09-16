@@ -1,0 +1,173 @@
+    1  passwd --stdin root
+    2  passwd root
+    3  touch /.autorelabel
+    4  mount -o remount,rw /sysroot
+    5  mount -o remount,rw /
+    6  ls /home 
+    7  chroot /
+    8  ls
+    9  chmod uday.txt
+   10  chmod --help
+   11  man chmod
+   12  ssh root@uday.server.com
+   13  sudo service apache2 restart
+   14  sudo service apache2 start
+   15  sudo apache2 install
+   16  sudo apt-get apache2 install
+   17  exit
+   18  su udaykumar
+   19  poweroff
+   20  useradd bv
+   21  useradd mani
+   22  passwd mani
+   23  su - mani
+   24  rm mani 
+   25  userdel mani 
+   26  vim /etc/passwd
+   27  groupadd mani 
+   28  useradd -aG bv mani
+   29  usermod -G bv mani 
+   30  usermod -aG bv mani 
+   31  useradd -aG bv mani 
+   32  adduser bv mani
+   33  groupdel mani 
+   34  group mani 
+   35  groupad
+   36  vim /etc/passwd
+   37  usermod -aG bv mani
+   38  adduser bv mani 
+   39  chmod ugo+rwx mani 
+   40  groups 
+   41  groupadd mani s
+   42  groupsr
+   43  adduser bv root
+   44  usermod -G root
+   45  usermod -G root bv
+   46  groups
+   47  vim /etc/passwd
+   48  mkdir /sample
+   49  cd /sample
+   50  vim hello.txt
+   51  ls
+   52  vim help.txt
+   53  cp hello.txt help.txt
+   54  vim help.txt
+   55  mv hello.txt hell.txt
+   56  ls
+   57  rm -rf hell.txt
+   58  ls
+   59  chmod 777 help.txt
+   60  chown a+x help.txt
+   61  chown a+g bv
+   62  chown bv a+g
+   63  chown bv help.tx
+   64  chown bv help.txt
+   65  chgrp root /common
+   66  groupadd common
+   67  chgrp root /common
+   68  groups
+   69  sudo groupadd common
+   70  sudo groupadd common1
+   71  groups
+   72  chgrp root /common1
+   73  vim /etc/passwd
+   74  tail
+   75  tail /etc/group
+   76  chgrp common /common1
+   77  chgrp common common1
+   78  chmod +t /sample
+   79  sshkeygen -t rsa
+   80  ssh keygen -t rsa
+   81  ssh-keygen -t rsa
+   82  ls -al
+   83  cd /
+   84  ls -al
+   85  ls -ll
+   86  cd .ssh
+   87  cd ~
+   88  cd .ssh
+   89  ls
+   90  cd 
+   91  pwd
+   92  apt-get install bind -y
+   93  apt-get install bind9 -y
+   94  nano /etc/bind/named.conf.options
+   95  clr
+   96  cd /etc/bind
+   97  cp db.127 reverse.example.com
+   98  cp db.local forward.example.com
+   99  ls /etc/bind
+  100  history >> uday.txt
+  101  vi uday.txt
+  102  mv uday.txt /root
+  103  cd /root
+  104  ls
+  105  vi uday.txt 
+  106  sudo apt-get install paracellite
+  107  su root
+  108  ls
+  109  vim
+  110  vim uday.txt 
+  111  power off
+  112  poweroff
+  113  ping 
+  114  cd home/user
+  115  ping 8.8.8.8
+  116  cleaar
+  117  clear
+  118  apt-get install bind9
+  119  apt-get install bind9 bind9utils bind9-doc dnsutils -y
+  120  sudo apt-get install bind9
+  121  sudo dpkg --configure -a
+  122  restrat
+  123  restart
+  124  poweroff
+  125  lsb_release -a
+  126  apt update
+  127  useradd nagios
+  128  groupadd nagcmd
+  129  user -a -G nagcmd nagios
+  130  usermod -a -G nagcmd nagios
+  131  usermod -a -G nagios,nagcmd www-data
+  132  wget https://nagios.org/downloads/nagios-plugins/
+  133  wget https://nagios.org/downloads/nagios-core/
+  134  ls
+  135  cd index.html.1
+  136  cd index.html
+  137  wget https://nagios.org/downloads/nagios-core/
+  138  ls
+  139  rm index.html index.html.1
+  140  ls
+  141  rm index.html.2
+  142  ls
+  143  wget https://nagios.org/downloads/nagios-core/
+  144  ./configure --with-nagios-group=nagios --with-command-group=nagcmd
+  145  wget https://assets.nagios.com/downloads/nagiosxi/xi-latest.tar.gz
+  146  tar xzf xi-latest.tar.gz
+  147  cd nagiosxi
+  148  ./fullinstall
+  149  ./fullinstall -f
+  150  make install
+  151  make install-commandmode
+  152  ./fullinstall -f
+  153* 
+  154  cd ..
+  155  sudo apt-get update
+  156  sudo apt-get install apache2 libapache2-mod-php
+  157  sudo apt-get install mysql-server
+  158  sudo apt-get install php php-mbstring php-gd php-xml php-bcmath php-ldap php-mysql
+  159  cd /etc/php/PHP_VERSION/apache2/php.ini
+  160  nano /etc/php/PHP_VERSION/apache2/php.ini
+  161  fg /etc/php/PHP_VERSION/apache2/php.ini
+  162  wget https://repo.zabbix/4.0/ubuntu/pool/main/z/zabbix-release_4.0-3+xenial_all.deb
+  163  wget https://repo.zabbix.com/5.0/ubuntu/pool/main/z/zabbix-release_5.0-1+xenial_all.deb
+  164  history
+  165  java -version
+  166  sudo apt-get update
+  167  sudo apt-get install openjdk-8-jdk
+  168  java -version
+  169  cd /opt/
+  170  cd ..
+  171  history
+  172  history >> 16th
+  173  history >> 16th.txt
